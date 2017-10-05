@@ -1,0 +1,86 @@
+.footer {
+	position: relative;
+}
+
+.footer__map {
+  width: 100%;
+  height: 870px;
+}
+
+.footer__contacts {
+  position: absolute;
+  top: 125px;
+  left: 65px;
+	padding: 45px 44px 32px;
+	float: left;
+	width: 340px;
+  background-color: rgba(0,0,0,0.75);
+}
+
+.footer__contacts-title {
+	margin: 0;
+	margin-bottom: 44px;
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: normal;
+	color: @active-color;
+}
+
+.footer__contacts-item {
+  display: block;
+  margin-bottom: 27px;
+  font-family: 'Muller';
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+
+  &:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  & svg {
+  	vertical-align: middle;
+    fill: @active-color;
+  }
+
+  & .phone {
+    margin-right: 17px;
+    height: 27px;
+  }
+
+  & .mail {
+  	height: 17px;
+    margin-right: 12px;
+  }
+
+   & .facebook {
+  	height: 17px;
+    margin-right: 12px;
+  }
+
+  &:hover {
+    color: @active-color;
+  }
+}
+
+.footer__address {
+	font-size: 24px;
+	line-height: 32px;
+	color: #ffffff;
+
+	span {
+		display: block;
+		margin-bottom: 16px;
+	}
+}
+
+.footer__bottom {
+	padding: 15px 0;
+	position: absolute;
+  width: 100%;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	color: #ffffff;
+	background-color: rgba(0,0,0,0.45);
+}

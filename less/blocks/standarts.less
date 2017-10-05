@@ -1,0 +1,56 @@
+.standarts {
+  position: relative;
+  padding: 70px 115px 65px 130px;
+  background-color: #ffffff;
+  overflow: hidden;  
+}
+
+.standarts::after {
+  content: "";
+  position: absolute;
+  top: 150px;
+  right: -55px;
+  width: 659px;
+  height: 554px;
+  background: url("../../img/standarts_bg.png") no-repeat center;
+}
+
+.standarts .stn-title {
+  margin-bottom: 37px;
+  transform: translateX(-40%);
+  border-bottom: none;
+}
+
+.standarts .stn-title::before {
+  content: "";
+  position: absolute;
+  left: -280px;
+  top: 30px;
+  width: 255px;
+  height: 3px;
+  background-color: @active-color;
+}
+
+.standarts__text {
+  margin: 0;
+  margin-bottom: 2px;
+  font-size: 18px;
+  line-height: 32px;
+
+  &:last-of-type {
+    margin-bottom: 35px; 
+  }
+}
+
+.standarts__law-title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #42c068;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

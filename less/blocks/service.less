@@ -1,0 +1,157 @@
+.service {
+  background: url(../../img/service_bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.service__container {
+  padding-left: 90px;
+  padding-bottom: 5px;
+}
+
+.service__wrap {
+  padding-left: 37px;
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 110px;
+  background-color: rgba(255,255,255,0.85);
+}
+
+.service .stn-title {
+  padding-right:25px;
+  word-spacing: 6px;
+  transform: translateX(-52%);
+}
+
+.service__text {
+  margin: 23px 0 24px;
+  padding: 0 88px 0 155px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8d8c8c;
+  text-align: center;
+}
+
+
+.service__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service__item {
+  margin-bottom: 18px;
+  text-align: center;
+  cursor: pointer;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.service__title {
+  display: inline-block;
+  padding: 16px 50px;
+  font-size: 32px;
+  line-height: 32px;
+
+  &:hover {
+    background-color: #f7a6a0;
+    color: #fff;
+  }
+}
+
+.service__content {
+  margin-top: 55px;
+  display: none;
+}
+
+.service__content.is-active {
+  display: block;
+}
+
+.service__content-left {
+  float: left;
+  width: 250px;
+}
+
+.service__content-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.service__categories {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    float: left;
+  }
+
+}
+
+.service__categories-link {
+  display: block;
+  padding: 7px 10px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+
+  &.active {
+    color: #fff;
+    background-color: #f5685d;
+  }
+}
+
+
+.service__content-right {
+  position: relative;
+  margin-right: 60px;
+  float: right;
+  width: 700px;
+}
+
+.service__categories-title {
+  margin: 0;
+  margin-bottom: 12px;
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #858585;
+}
+
+.service__categories-text {
+  height: 420px;
+  overflow-y: auto;
+}
+
+.service__categories-explanation {
+  display: none;
+  padding-right: 55px;
+  font-size: 18px;
+  line-height: 24px;
+
+  &.is-active {
+    display: block;
+  }
+}
+
+.btn-close--categories {
+  top:-10px;
+  right: 0px;
+  
+}
+
+
+.btn-consult {
+  position: absolute;
+  padding: 15px 0;
+  width: 370px;
+  left: 0;
+  bottom: -70px;
+}

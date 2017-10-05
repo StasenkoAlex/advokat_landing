@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1280px">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Адвокат Алла Ларченко</title>
+  <!-- Import main styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/customscrollbar.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+  <!--[if lt IE 10]>
+<link rel="stylesheet" href="assets/css/ie.css">
+<![endif]-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__top clearfix">
+        <a href="/" class="header__logo">
+          <img src="img/logo.png" alt="Advokat" width="271" height="104">
+        </a>
+        <div class="header__lang">
+          <a class="header__lang-item header__lang-item--active">РУ</a>
+          <a class="header__lang-item" href="#">УКР</a>
+          <a class="header__lang-item" href="#">АНГЛ</a>
+        </div>
+        <div class="header__contacts">
+          <span class="header__contacts-item">
+            <svg fill="currentColor" class="mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0   24.6 18">
+              <path d="M22.2,0H2.4C1.1,0,0,1.1,0,2.4v13.1C0,16.9,1.1,18,2.4,18h19.8c1.4,0,2.4-1.1,2.4-2.4V2.4C24.7,1.1,23.6,0,22.2,0z
+            M22.3,4.4l-4.9,4.9l0,0l3.9,3.9c0.3,0.3,0.3,0.6,0,0.9c-0.1,0.1-0.3,0.2-0.4,0.2c-0.2,0-0.3-0.1-0.4-0.2l-4-3.9l0,0l-2.4,2.4
+            c-0.5,0.5-1.1,0.7-1.8,0.7S11,13,10.6,12.6l-2.4-2.5l-4.3,4.3c-0.1,0.1-0.3,0.2-0.4,0.2S3.2,14.5,3,14.4c-0.3-0.3-0.3-0.6,0-0.9
+            l4.3-4.3l0,0L2.4,4.1c-0.3-0.3-0.2-0.7,0-0.9C2.7,3,3.1,3,3.3,3.2l8.2,8.5c0.5,0.5,1.3,0.5,1.7,0l8.2-8.2c0.3-0.3,0.6-0.3,0.9,0
+            C22.6,3.7,22.6,4.1,22.3,4.4z"/>
+            </svg>
+            larchenko22@gmail.com
+          </span>
+          <span class="header__contacts-item">
+            <svg fill="currentColor" class="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.8 25">
+              <path d="M13.5,0H1.3C0.6,0,0,0.6,0,1.3l0,0v22.3C0,24.4,0.6,25,1.3,25l0,0h12.1c0.7,0,1.3-0.6,1.3-1.3l0,0V1.3
+            C14.8,0.6,14.2,0,13.5,0L13.5,0z M7.4,23.6c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1c0.6,0,1.1,0.5,1.1,1.1
+            C8.5,23.1,8,23.6,7.4,23.6L7.4,23.6z M13.7,19.9H1.1V1.3c0-0.1,0.1-0.3,0.3-0.3h12.1c0.1,0,0.3,0.1,0.3,0.3L13.7,19.9z"/>
+            </svg>
+            +38 095 044 5982
+          </span>
+          <a href="#" class="btn btn--light js-open_modal">Связаться с адвокатом</a>
+        </div>
+      </div>
+      <div class="header__bottom clearfix">
+        <nav class="nav">
+          <a class="nav__item" href="#about">О себе</a>
+          <a class="nav__item" href="#services" >Услуги</a>
+          <a class="nav__item" href="#contacts">Контакты</a>
+        </nav>
+        <img class="header__img" src="img/header_photo.jpg" alt="" width="555" height="396">
+      </div>
+    </div>
+  </header>
+  <section class="about-banner clearfix">
+    <div class="about-banner__container container clearfix">
+      <div class="about-banner-left">
+        <blockquote class="about-banner__quote">
+          Изобретать нестандартные юридические решения Ваших проблем<br> – мое хобби...
+        </blockquote>
+        <a href="#" class="btn btn--dark js-open_modal">Связаться со мной</a>
+      </div>
+      <p class="about-banner-right">
+        ...Более 15 лет успешной юридической практики
+      </p>
+    </div>
+  </section>
+  <section class="service" id="services">
+    <div class="service__container container">
+      <div class="service__wrap">
+        <h1 class="stn-title">Мои услуги</h1>
+        <span class="title-shadow title-shadow--left">Мои услуги</span>
+        <p class="service__text js-service_title">Помогаю эффективно работать бизнесу – предупреждаю о рисках, нахожу выход из сложных ситуаций. Предоставляю гражданам помощь в решении правовых вопросов. Сопровождаю судебные споры.
+        </p>
+        <ul class="service__list js-service">
+          <li class="service__item">
+            <span class="service__title js-service_item">Правовая помощь гражданам</span>
+          </li>
+          <li class="service__item">
+            <span class="service__title js-service_item">Правовая помощь бизнесу</span>
+          </li>
+          <li class="service__item">
+            <span class="service__title js-service_item">Разрешение споров в судах</span>
+          </li>
+          <li class="service__item">
+            <span class="service__title js-service_item">Сопровождение исполнительного производства</span>
+          </li>
+          <li class="service__item">
+            <span class="service__title js-service_item">Административные дела</span>
+          </li>
+          <li class="service__item">
+            <span class="service__title js-service_item">Уголовные дела</span>
+          </li>
+        </ul>
+
+        <div class="service__content  clearfix js-service_content">
+          <div class="service__content-left">
+            <h3 class="service__content-title">Правовая помощь гражданам</h3>
+            <ul class="service__categories clearfix">
+              <li><a class="service__categories-link js-service__categories-link active" href="#categ-1">Услуга "Личный адвокат"</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-2">Установление юридических фактов</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-3">Семейное право</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-4">Жилищное право</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-5">Наследственное право</a></li>
+            </ul>
+          </div>
+          <div class="service__content-right">
+            <h2 class="service__categories-title">Помогу частным лицам решить юридические вопросы</h2>
+            <button type="button" class="btn-close btn-close--categories js-categories_close"></button>
+            <div class="service__categories-text ">
+              <div id="categ-1" class="service__categories-explanation is-active">
+                <p>Адвокат, выполняя поручения доверителя-гражданина, берет на себя гораздо больше обязательств перед ним, чем разрешение спора или устранение негативных последствий.</p>
+                <p>Гражданин, оставшись лицом к лицу с проблемой, либо вопросом, который нужно решить, обращается к адвокату. Заключая договор с клиентом, адвокат как бы выражает мысль: «Теперь эта проблема и моя проблема тоже».</p>
+                <p>Адвокат выслушает Вас и с головой погрузится в вашу ситуацию, одновременно анализируя её с точки зрения права. А вы, тем временем, в любой ситуации скажете: «Я посоветуюсь со своим адвокатом».</p>
+              </div>
+              <div id="categ-2" class="service__categories-explanation">
+               <p>От различных событий в нашей жизни зависит возникновение, изменение, прекращение личных или имущественных прав граждан. Такие события называются юридическими фактами. Ряд из них устанавливается судом.</p>
+               Я помогу в судебном процессе по установлению: 
+               <ul>
+                 <li>родственных отношений,</li>
+                 <li>факта нахождения на иждивении,</li>
+                 <li>факта регистрации рождения, усыновления (удочерения), брака, расторжения брака, смерти,</li>
+                 <li>факта признания отцовства,</li>
+                 <li>факта принадлежности правоустанавливающих документов лицу, имя, отчество или фамилия которого, указанные в документе, не совпадают с, указанными в паспорте или свидетельстве о рождении,</li>
+                 <li>факта владения и пользования недвижимым имуществом,</li>
+                 <li>факта несчастного случая,</li>
+                 <li>факта принятия наследства и места открытия наследства,</li>
+                 <li>других имеющих юридическое значение фактов.</li>
+               </ul>
+              </div>
+              <div id="categ-3" class="service__categories-explanation">
+                <p>Семейная жизнь, казавшаяся поначалу замечательной, а потом ставшая чем-то обыденным и житейским, в случае возникновения спора между супругами превращается в сложные дела для юристов.</p>
+                <p>В таких случаях затрагивается личная сторона жизни граждан, которым иногда приходится рассказывать юристам буквально все, чтобы те смогли дать правильную правовую оценку ситуации. </p>
+                <p>Когда дело доходит до суда, решается судьба детей и супругов. Поэтому в вопросах семейного права очень важна помощь адвоката.</p>
+                <p>Например, при разделе имущества в судебном порядке необходимо провести аудит имущества супругов и семейных сделок. Однако важно понимать, что такого процесса можно было бы избежать, составив брачный договор, в котором были бы заранее определены доли супругов при разводе.</p>
+                <p>Поэтому своевременное обращение к адвокату для разрешения правовых вопросов - это хороший вклад в спокойную семейную жизнь в будущем. </p>
+              </div>
+              <div id="categ-4" class="service__categories-explanation">
+                <p>Право на жилье - одно из ключевых и наиболее важных для гражданина. </p>
+                <p>Как правило, в этих вопросах граждане делятся на две  группы: собственники и наниматели жилья. <br>
+                Отсюда и широкий спектр отношений, в которых гражданам требуется поддержка. Это приватизация жилья, инвестиционные договора долевого строительства, а также условия предоставления, пользования и распоряжения жилыми помещениями.</p>
+                <p>Я помогу в сопровождении сделок с жилой недвижимостью и уберегу Вас от неприятных сюрпризов, которые встречаются на этом рынке.</p>
+              </div>
+              <div id="categ-5" class="service__categories-explanation">
+                <p>Наследственные дела очень сложны с разных точек зрения.</p>
+                <p>Для граждан на первый план выходят, в том числе и этические аспекты. Например, когда близкие родственники, с которыми, возможно не так давно делили горе и радости, вместе проводили время, становятся вашим злейшими оппонентами в суде в споре за материальные блага. </p>
+                <p>В таких делах важно сохранять холодный рассудок, что сложно, так как затрагиваются личные взаимотношения. </p>
+                <p>Именно поэтому обращение к независимому советнику по правовым вопросам поможет разрешить ситуацию максимально эффективно на любом этапе наследования, а также сэкономить время и нервы.</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn--dark btn-consult js-open_modal">Записаться на консультацию</a>
+          </div>
+        </div>
+
+        <div class="service__content clearfix js-service_content">
+          <div class="service__content-left">
+            <h3 class="service__content-title">Правовая помощь бизнесу</h3>
+            <ul class="service__categories clearfix">
+              <li><a class="service__categories-link js-service__categories-link active" href="#categ-6">Корпоративное право</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-7">Трудовое право</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-8">Договорное право</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-9">Налоговое право</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-10">Юридическое сопровождение бизнеса</a></li>
+            </ul>
+          </div>
+          <div class="service__content-right">
+            <h2 class="service__categories-title">Организую систему правовой безопасности, чтобы ничто не мешало Вам ефективно работать.</h2>
+            <button type="button" class="btn-close btn-close--categories js-categories_close"></button>
+            <div class="service__categories-text">
+              <div id="categ-6" class="service__categories-explanation is-active">
+                <p>Правильно выстроенная и отлаженная система управления бизнесом является основой успеха любой компании. Нахождение баланса интересов между участниками организации убережет от корпоративных конфликтов.</p>
+                <p>С момента создания общества следует четко действовать согласно нормам корпоративного права с учетом постоянно меняющейся судебной практики. 
+                Я помогу выстроить оптимальную систему корпоративного управления с учетом актуальных правовых тенденций. </p>
+                Практика включает в себя: 
+                <ul>
+                  <li>разработку учредительных документов,</li>
+                  <li>консультации в связи с возможными реорганизациями предприятия, изменениями в составе учасников либо акционеров.</li>
+                  <li>построение эфективной модели корпоративного управления,</li>
+                  <li>защиту прав акционеров,</li>
+                  <li>правовой аудит.</li>
+                </ul>
+              </div>
+              <div id="categ-7" class="service__categories-explanation">
+                <p>Несмотря на стремительное развитие технологий, и сегодня ключевым активом успешной компании по-прежнему остаются ее сотрудники. </p>
+                <p>Поэтому компании важно уделять пристальное внимание подбору и развитию персонала, организации трудовых отношений, вопросам кадрового делопроизводства. Работникам крайне важно соблюдение их прав.</p>  
+                <p>Я помогу составить кадровые документы: правила внутреннего распорядка, должностные инструкции, контракты, трудовые договора, приказы и другие внутренние локальные акты. Помогу найти оптимальный выход в случае возникновения спора между сотрудником и работодателем.</p>
+                <p>Бизнес развивается гораздо эффективнее, когда отношения компании и сотрудников находятся в правовом русле. </p>
+              </div>
+              <div id="categ-8" class="service__categories-explanation">
+                <p>Каждый день мы совершаем сделки, а ведение бизнеса не представляется возможным без заключения и исполнения договоров. </p>
+                <p>Нет типовых договоров одинаково подходящих для решения любой аналогичной задачи. Это противоречит сути индивидуального регулирования отношений сторон, которое позволяет учесть конкретные жизненные обстоятельства, имеющие место для сторон здесь и сейчас.</p>
+                <p>Также на технику составления договоров влияют изменяющиеся законы и судебная практика. </p>
+                <p>Поэтому, подготавливая проект договора самостоятельно без консультаций с адвокатом, вы рискуете упустить детали, которые скажутся на действительности и результате сделки. </p>
+                <p>Я помогу Вам на всех этапах – от проведения переговоров и составления проекта договора, до его исполнения.</p>
+              </div>
+              <div id="categ-9" class="service__categories-explanation">
+                <p>Трудно представить себе компанию, которая рано или поздно не сталкивалась бы с претензиями налогового ведомства.</p>
+                <p>Ваш контрагент не сообщил налоговым органам свой новый адрес, следовательно, у Вас возникла проблема, т.к. налоговики не признают правомочность сделки. И подобных ситуаций масса. Вы работаете, пытаясь соблюсти каждую букву закона и платите налоги в полной мере, но претензии к Вам все равно будут. И вот здесь важно не упустить время, а сразу привлечь к работе квалифицированного адвоката, который поможет выйти из сложной ситуации. </p>
+              </div>
+              <div id="categ-10" class="service__categories-explanation">
+                <p>Квалифицированная юридическая помощь адвоката важна не столько в форс-мажорных ситуациях, сколько в повседневной работе предприятия. Как раз для минимизации форс-мажоров. </p>
+                Такая правовая помощь включает в себя, в том числе: 
+                <ul>
+                  <li>анализ, оценку, разработку документов,</li>
+                  <li>обращение в государственные органы;</li>
+                  <li>сопровождение сделок,</li>
+                  <li>помощь в переговорах.</li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="btn btn--dark btn-consult js-open_modal">Записаться на консультацию</a>
+          </div>
+        </div>
+
+        <div class="service__content clearfix js-service_content">
+          <div class="service__content-left">
+            <h3 class="service__content-title">Разрешение споров в судах</h3>
+            <ul class="service__categories clearfix">
+              <li><a class="service__categories-link js-service__categories-link active" href="#categ-11">Корпоративные споры</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-12">Взыскание задолженности </a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-13">Защита чести и достоинства и деловой репутации</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-14">Споры, возникающие в ходе исполнения договоров</a></li>
+              <li><a class="service__categories-link js-service__categories-link" href="#categ-15">Бракоразводные процессы и раздел имущества</a></li>
+            </ul>
+          </div>
+          <div class="service__content-right">
+            <h2 class="service__categories-title">Разработаем стратегию ведения дела, представим ваши интересы в суде </h2>
+            <button type="button" class="btn-close btn-close--categories js-categories_close"></button>
+            <div class="service__categories-text">
+               <div id="categ-11" class="service__categories-explanation is-active">
+                <p>Участие в корпоративных организациях и управлении ими - это сложные и многогранные отношения, в которых советы адвоката могут сильно помочь.</p>
+                Корпоративные споры могут быть связаны с: 
+                <ul>
+                  <li>регистрацией, реорганизацией и ликвидацией компаний,</li>
+                  <li>формированием, изменением и распределением уставного капитала,</li>
+                  <li>наследованием бизнеса,</li>
+                  <li>назначением, отстранением и приостановлением полномочий руководящих лиц, входящих в состав управленческих органов,</li>
+                  <li>признанием недействительными совершенных обществом сделок,</li>
+                  <li>возмещением руководителем убытков,  причиненных обществу,</li>
+                  <li>проведением собраний участников и акционеров,</li>
+                  <li>обжалованием решений руководящих органов.</li>
+                </ul>
+                <p>Я помогу восстановить паритет прав в корпоративных отношениях, а также защитить от незаконных притязаний на ваш бизнес со стороны.</p>
+              </div>
+              <div id="categ-12" class="service__categories-explanation">
+                <p>Так вышло, что вы одолжили денег, а Вам их не спешат возвратить или контрагент вашего юридического лица долгое время не оплачивает выполненные работы либо поставленный товар.</p>
+                <p>Когда ваше терпение кончилось, мы можем говорить о начале подготовки процедуры взыскания задолженности.</p>
+                <p>Должники бывают разные: кто-то не может рассчитаться в связи с временными трудностями, а кто-то преднамеренно поставил себя в состояние неплатежеспособности, а кто-то просто не спешит расставаться с деньгами.</p>
+                <p>В любом случае, правильная оценка фактических обстоятельств адвокатом позволит решить задачу максимально эффективно для вас. </p>
+              </div>
+              <div id="categ-13" class="service__categories-explanation">
+                <p>Честь и достоинство являются своего рода нематериальными активами каждого гражданина. То же самое касается бизнеса — статус безупречного поставщика или производителя товаров или работ в полной мере конвертируется в такой актив, как деловая репутация. </p>
+                <p>Честь и достоинство гражданина, деловая репутация предпринимателей тесно связаны с правом, так как их ограничение или утрата влекут за собой снижение статуса, достигнутого в отношениях с другими лицами. Таким образом, утрата нематериального актива может в полной мере отразиться на вашем материальном состоянии.</p>
+                <p>Я помогу Вам восстановить нарушенные права. </p>
+              </div>
+              <div id="categ-14" class="service__categories-explanation">
+                <p>Конечно, высшим мастерством как в предпринимательской, так и в адвокатской деятельности является не доводить споры с контрагентами до суда. </p>
+                <p>Но если вам всё же приходится готовить исковое заявление или контраргументы на необоснованные претензий, независимый советник поможет выбрать оптимальную правовую позицию. </p>
+                <p>Здесь важно подходить к предстоящим процессам рационально: оценить экономический эффект от спора, просчитать исполнимость итогового судебного акта по делу и многие другие детали. </p>
+                <p>Вдумчивая и внимательная работа адвоката поможет защитить Ваши права. </p>
+              </div>
+              <div id="categ-15" class="service__categories-explanation">
+                <p>Когда по тем или иным причинам распадается семья, это для всех большое испытание. Зачастую, страсти накаляются до предела и стороны просто неспособны слышать друг друга и найти рациональный выход из создавшейся ситуации. При этом, возникает масса вопросов, которые необходимо решить, как то раздел имущества, место проживания детей, размер алиментов и др.</p>
+                <p>Хорошо, когда  несмотря на взаимные претензии все же получается договориться. Но если дело дошло до суда, без квалифицированного адвоката Вы не обойдетесь. Я помогу Вам отыскать точки соприкосновения и найти обоюдно устраивающие стороны решения по спорным моментам, чтобы Вы смогли спокойно отпустить прошлое и жить дальше. </p>
+              </div>
+            </div>
+            <a href="#" class="btn btn--dark btn-consult js-open_modal">Записаться на консультацию</a>
+          </div>
+        </div>
+
+         <div class="service__content clearfix js-service_content">
+          <div class="service__content-left">
+            <h3 class="service__content-title">Сопровождение исполнительного производства</h3>
+          </div>
+          <div class="service__content-right">
+            <h2 class="service__categories-title">Добьюсь приведения судебного решения в исполнение</h2>
+            <button type="button" class="btn-close btn-close--categories js-categories_close"></button>
+            <div class="service__categories-text">
+              <p>Не достаточно выиграть судебный процесс и получить решение суда, вступившее в законную силу. Для того, чтобы считать дело завершенным в полной мере, нужно привести такое решение в исполнение.</p>
+              <p>Исполнительное производство требует, помимо фундаментальных знаний, эффективного общения со службой судебных исполнителей и постоянных консультаций адвоката.</p>
+              <p>На всех стадиях исполнительного производства - от получения исполнительного документа и до логического завершения – я обеспечу Вам поддержку советом и делом. </p>
+            </div>
+            <a href="#" class="btn btn--dark btn-consult js-open_modal">Записаться на консультацию</a>
+          </div>
+        </div>
+
+        <div class="service__content clearfix js-service_content">
+          <div class="service__content-left">
+            <h3 class="service__content-title">Административные дела</h3>
+          </div>
+          <div class="service__content-right">
+            <h2 class="service__categories-title">Не допущу ущемления Ваших прав в административном судопроизводстве</h2>
+            <button type="button" class="btn-close btn-close--categories js-categories_close"></button>
+            <div class="service__categories-text">
+              <p>Административные дела – одни из самых распространенных производств, связанные с взаимоотношениями с государственными учреждениями и контролирующими органами.</p>
+              <p>Я предоставлю правовую помощь участникам административных дел, что поможет отстоять Ваши права и законные интересы. </p>
+            </div>
+            <a href="#" class="btn btn--dark btn-consult js-open_modal">Записаться на консультацию</a>
+          </div>
+        </div>
+
+        <div class="service__content clearfix js-service_content">
+          <div class="service__content-left">
+            <h3 class="service__content-title">Уголовные дела</h3>
+          </div>
+          <div class="service__content-right">
+            <h2 class="service__categories-title">Буду Вашим защитником в случае уголовного преследования </h2>
+            <button type="button" class="btn-close btn-close--categories js-categories_close"></button>
+            <div class="service__categories-text">
+              <p>Уголовное судопроизводство — это единственный публичный процесс, в котором всем без исключения подозреваемым, обвиняемым в совершении преступления, государством гарантирована правовая помощь.</p>
+              <p>Защита в уголовном процессе исторически считается одной из важнейших задач адвокатуры в Украине. В подавляющем большинстве случаев только адвокат наделен законом такими полномочиями.  Участие адвоката важно с самого начала уголовного преследования, так как это повысит возможности защиты. </p>
+            </div>
+            <a href="#" class="btn btn--dark btn-consult js-open_modal">Записаться на консультацию</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="advantages">
+    <div class="advantages__container container">
+      <h1 class="advantages__title">Преимущества</h1>
+      <ul class="advantages__list clearfix js-counter">
+        <li class="advantages__item advantages__item--client">
+          <span class="advantages__count js-counter_item" data-num="500">0</span>
+          <span class="advantages__text">счастливых клиентов</span>
+        </li>
+        <li class="advantages__item advantages__item--experiense">
+          <span class="advantages__count js-counter_item" data-num="15">0</span>
+          <span class="advantages__text">лет опыта</span>
+        </li>
+        <li class="advantages__item advantages__item--success">
+          <span class="advatages__count js-counter_item" data-num="98">0</span>%
+          <span class="advantages__text">успешных дел</span>
+        </li>
+        <li class="advantages__item advantages__item--deal">
+          <span class="advantages__count js-counter_item" data-num="100">0</span>%
+          <span class="advantages__text">конфиденциальность</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="standarts">
+    <h1 class="stn-title">Этические стандарты и нормы</h1>
+    <span class="title-shadow title-shadow--right">Этические стандарты</span>
+    <p class="standarts__text">Часто к адвокату обращаются как к последней надежде.</p>
+    <p class="standarts__text">Поэтому адвокатское сообщество предъявляет к своим членам серьезные этические требования, которые нашли отражение в Правилах адвокатской этики.</p>
+    <p class="standarts__text">Такой уровень ответственности и шанс помогать нуждающимся – это миссия, которая заставляет адвоката находить ответы на сложные вопросы, стремиться сделать то, чего не было до этого.</p>
+    <p class="standarts__text">И как главный итог – решить вопросы клиента.</p>
+    <h3 class="standarts__law-title">Закон Украины<br>«Об адвокатуре и адвокатской деятельности» </h3>
+    <h3 class="standarts__law-title">«Правила адвокатской этики» на сайте НААУ</h3>
+  </section>
+  <section class="about" id="about">
+    <div class="about__container">
+      <div class="about__wrap clearfix">
+        <div class="about__info">
+          <h1 class="stn-title">О себе</h1>
+          <span class="title-shadow title-shadow--left">О себе</span>
+          <h2 class="about__title"><span>Адвокат</span>Алла Ларченко</h2>
+          <div class="about__text">
+            <p>Числюсь адвокатом в Раде адвокатов Черниговской области Национальной Ассоциации Адвокатов Украины</p>
+            <p><a class="about__link" href="img/sertificate.jpg" target="_blank">Свидетельство «О праве на занятие адвокатской деятельностью» № 409 от «24» октября 2008г.,</a>выданое Квалификационно-дисциплинарной комиссией  адвокатуры в Черниговской области на основании решения № 7/2 от 07.10.2008г.
+          В 2004-м году окончила Национальную юридическую академию Украины и получила <a class="about__link" href="img/diplom.jpg" target="_blank"> полное высшее образование по специальности «Правоведение»</a>
+          и получила квалификацию юриста.</p>
+            <p>Сопровождая бизнес и помогая гражданам в решении правовых вопросов, поняла для себя – действительно неразрешимых вопросов очень мало, главное – внимательно относиться к делу клиента. Мой принцип работы, решение каждого вопроса – исключительно.</p>
+            <p>Считаю, что для практикующего юриста важно постоянно повышать квалификацию и следить за актуальными изменениями законодательства, чему постоянно уделяю внимание.</p>
+            <p>Сочетание практических навыков, знаний в области права и социальной ответственности перед клиентом, убеждают меня относиться к юридической помощи взвешенно и ответственно и находить приемлемые для клиента решения.</p>
+          </div>
+        </div>
+        <img src="img/about_photo.jpg" alt="" class="about__img" width="363" height="526">
+      </div>
+    </div>
+  </section>
+  <div class="about-photo js-about_photo">
+    <div class="about-photo__wrap">
+      <button type="button" class="btn-close btn-close--modal js-close_img"></button>
+      <img src="img/diplom.jpg" alt="diplom" width="800" >
+      <img src="img/sertificate.jpg" alt="sertificat" width="800">
+    </div>
+  </div>
+  <section class="feedback clearfix">
+    <h1 class="feedback__title">Связаться со мной</h1>
+    <form action="/" class="feedback__form">
+      <input type="text" name="user_name" placeholder="Ваше имя" required>
+      <input type="text" name="user_contacts" placeholder="Ваш email или телефон" required>
+      <textarea name="user_info" placeholder="Текст сообщения"></textarea>
+      <input class="btn btn--dark" type="submit" value="Отправить письмо">
+    </form>
+  </section>
+  <footer class="footer" id="contacts">
+    <div class="footer__map" id="map"></div>
+    <div class="footer__contacts">
+      <h2 class="footer__contacts-title">Контакты</h2>
+      <span class="footer__contacts-item">
+        <svg fill="currentColor" class="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.8 25">
+          <path d="M13.5,0H1.3C0.6,0,0,0.6,0,1.3l0,0v22.3C0,24.4,0.6,25,1.3,25l0,0h12.1c0.7,0,1.3-0.6,1.3-1.3l0,0V1.3
+          C14.8,0.6,14.2,0,13.5,0L13.5,0z M7.4,23.6c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1c0.6,0,1.1,0.5,1.1,1.1
+          C8.5,23.1,8,23.6,7.4,23.6L7.4,23.6z M13.7,19.9H1.1V1.3c0-0.1,0.1-0.3,0.3-0.3h12.1c0.1,0,0.3,0.1,0.3,0.3L13.7,19.9z"/>
+        </svg>
+        +38 095 044 5982
+      </span>
+      <span class="footer__contacts-item">
+        <svg fill="currentColor" class="mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.6 18">
+          <path d="M22.2,0H2.4C1.1,0,0,1.1,0,2.4v13.1C0,16.9,1.1,18,2.4,18h19.8c1.4,0,2.4-1.1,2.4-2.4V2.4C24.7,1.1,23.6,0,22.2,0z
+          M22.3,4.4l-4.9,4.9l0,0l3.9,3.9c0.3,0.3,0.3,0.6,0,0.9c-0.1,0.1-0.3,0.2-0.4,0.2c-0.2,0-0.3-0.1-0.4-0.2l-4-3.9l0,0l-2.4,2.4
+          c-0.5,0.5-1.1,0.7-1.8,0.7S11,13,10.6,12.6l-2.4-2.5l-4.3,4.3c-0.1,0.1-0.3,0.2-0.4,0.2S3.2,14.5,3,14.4c-0.3-0.3-0.3-0.6,0-0.9
+          l4.3-4.3l0,0L2.4,4.1c-0.3-0.3-0.2-0.7,0-0.9C2.7,3,3.1,3,3.3,3.2l8.2,8.5c0.5,0.5,1.3,0.5,1.7,0l8.2-8.2c0.3-0.3,0.6-0.3,0.9,0
+          C22.6,3.7,22.6,4.1,22.3,4.4z"/>
+        </svg>
+        larchenko22@gmail.com
+      </span>
+      <span class="footer__contacts-item">
+        <svg class="facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19">
+          <path fill="transparent" d="M12.6,5.6V4h-2C9.5,4,8.6,5,8.6,6.1V8h-2v1.4h2v5.7h1.7V9.5h2.3V8h-2.3V6.4c0-0.4,0.3-0.8,0.7-0.8L12.6,5.6
+          L12.6,5.6z"/>
+          <path fill="#f44336" d="M15.3,0H3.7C1.7,0,0,1.7,0,3.7v11.7c0,2,1.7,3.7,3.7,3.7h11.7c2,0,3.7-1.7,3.7-3.7V3.7C19,1.7,17.4,0,15.3,0z M10.3,6.4V8
+          h2.3v1.4h-2.3v5.7H8.6V9.5h-2V8h2V6.1c0-1.1,0.9-2,1.9-2h2v1.5h-1.6C10.7,5.6,10.3,5.9,10.3,6.4z"/>
+        </svg>
+        facebook.com/username
+      </span>
+      <div class="footer__address">
+        <span>Адрес</span>
+        г. Чернигов,<br>
+        ул. Ремесленная, 58<br>
+      </div>
+    </div>
+    <div class="footer__bottom">
+        &#169;2017.SimplaShop
+    </div>
+  </footer>
+  <div class="modal-feedback">
+    <div class="modal-feedback__wrap">
+      <button type="button" class="btn-close btn-close--modal js-close_modal"></button>
+      <div class="feedback__send">
+        <h2 class="feedback__title">Форма обратной связи</h1>
+        <form action="/" class="feedback__form">
+          <input type="text" name="user_name" placeholder="Ваше имя" required>
+          <input type="text" name="user_contacts" placeholder="Ваш email или телефон" required>
+          <textarea name="user_info" placeholder="Текст сообщения"></textarea>
+          <input class="btn btn--dark" type="submit" value="Отправить письмо">
+        </form>
+      </div>
+      <div class="feedback__succsess">
+        <svg  xmlns="http://www.w3.org/2000/svg" viewBox="70.4 77.9 257.2 250" width="250">
+          <path style="fill:#F44336;" d="M140.4,191.2h-60c-5.3,0-10,4.3-10,10v116.7c0,5.3,4.3,10,10,10h60c5.3,0,10-4.3,10-10v-4.7
+          c0.3,0,0.7,0,1,0c2.3,0.3,4.7,1.3,6.7,3.3c3.7,3.7,8.7,7,12,9c2.3,1.3,4.7,2,7.3,2h117.4c18.3-3,17-22.7,16.3-28.7
+          c-0.3-1.3,0.3-2.7,1-3.7c9.7-10.7,6.7-23,4-29.7c-0.7-1.7-0.3-3.3,1-4.7c13-14.7,8.7-27.3,5-33.7c-1-1.7-1-3.7,0.3-5.3
+          c11.3-14.3,0.3-32.3,0.3-32.3c-7-15.3-30.7-14.7-48-14c-4,0-7.7,0.3-10.3,0c-6.3-0.3-10.3-1.7-11.7-3.7c-1-1.7-0.3-4,1.3-7.3
+          c0.7-1.3,1.7-3,3-5c6-10.3,15.7-27.7,19.3-40c2.3-8.3,0.3-19.3-5-28.3c-4.3-7-10-11.7-16-13c-3.7-0.7-6.7,0-9.3,2
+          c-7,5.3-7.7,18.3-8,18.7c-3,22.7-23.7,42.4-33.7,51.7c-1.3,1.3-2.3,2.3-3.3,3c-4.7,4.7-7.7,12-11,19.7c-2.3,5.3-4.3,10.7-7.3,15.3
+          c-3.7,6-8.3,11.3-11.7,15c-2.7,3-6.3,4.3-10,4.3h-10.7v-6.7C150.4,195.5,146.1,191.2,140.4,191.2z M147.1,317.9
+          c0,3.7-3,6.7-6.7,6.7h-60c-3.7,0-6.7-3-6.7-6.7V201.2c0-3.7,3-6.7,6.7-6.7h60c3.7,0,6.7,3,6.7,6.7V317.9z M161.1,211.2
+          c4.7,0,9.3-2,12.7-5.7c3.3-3.7,8-9.3,12-15.3c3-4.7,5.3-10.3,7.7-15.7c3-7.3,6-14.3,10-18.7c1-0.7,2-2,3-3
+          c10.3-9.7,31.3-30,34.7-54c0,0,0.7-12,6.7-16.3c2-1.3,4-2,6.7-1.3c5,1,10,5,14,11.3c5,8.3,7,18.3,4.7,25.7
+          c-3.3,11.7-13.7,29.7-19,39.4c-1.3,2-2.3,4-3,5.3c-2.3,4.3-3,8-1.3,10.7c2,3.3,6.7,5,14.3,5.7c3,0,6.7,0,10.7,0
+          c16.3-0.3,39-1,45,12.3c0,0,9.7,16.3,0,28.7c-2,2.7-2.3,6.3-0.3,9c3.3,5.3,7,16.7-4.7,29.7c-2,2.3-2.7,5.3-1.3,8.3
+          c2.3,5.7,5,16.7-3.7,26c-1.7,1.7-2.3,4-2,6.3c1,6.7,1.3,22.7-13.3,25H177.1c-2,0-4-0.7-5.7-1.7c-3.3-2-8-5.3-11.3-8.7
+          c-2.3-2.3-5.3-3.7-8.3-4c-0.3,0-1,0-1.3,0v-99H161.1z"/>
+        </svg>
+        <p>Отправлено успешно!<br>Очень скоро я свяжусь с вами!</p>
+        <button type="button" class="btn btn--dark js-close_modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+
+  
+<script src="js/script.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5FBDFmR4yO5tuOgFfqpqg-9IvpCTNHYU&callback=initMap"></script>
+<script src="js/map.js"></script>
+</body>
+</html>
