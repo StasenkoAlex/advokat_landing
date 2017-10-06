@@ -1,14 +1,19 @@
 .feedback {
   position: relative;
-  padding: 50px 115px 65px 0;
-  background: #f7f7f7 url("../img/feedback_bg.png") no-repeat 30px center;
+  padding: 50px 0 65px;
+  background-color: #f7f7f7;
 }
 
-.feedback::before {
+.feedback__container {
+  position: relative;
+  background: #f7f7f7 url("../img/feedback_bg.png") no-repeat 0 center;
+}
+
+.feedback__container::before {
   content: "";
   position: absolute;
-  top: 0;
-  right: 170px;
+  top: -50px;
+  right: 150px;
   width: 4px;
   height: 40px;
   background-color: @active-color;
@@ -25,7 +30,7 @@
 }
 
 .feedback__form {
-  margin-right: 12px;
+  margin-right: 45px;
   float: right;
   width: 320px;
   text-align: center;
